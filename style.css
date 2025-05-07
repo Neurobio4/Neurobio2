@@ -1,0 +1,347 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+
+    @media (min-width: 320px) {
+        .min320\:ml-2 { margin-left: 0.5rem; }
+        .min320\:ml-4 { margin-left: 1rem; }
+        .min320\:ml-6 { margin-left: 1.5rem; }
+        .min320\:ml-8 { margin-left: 2rem; }
+        .min320\:ml-10 { margin-left: 2.5rem; }
+        .min320\:ml-12 { margin-left: 3rem; }
+        .min320\:ml-14 { margin-left: 3.5rem; }
+        .min320\:ml-16 { margin-left: 4rem; }
+        .min320\:ml-18 { margin-left: 4.5rem; }
+        .min320\:ml-20 { margin-left: 5rem; }
+    
+        .min320\:mr-2 { margin-right: 0.5rem; }
+        .min320\:mr-4 { margin-right: 1rem; }
+        .min320\:mr-6 { margin-right: 1.5rem; }
+        .min320\:mr-8 { margin-right: 2rem; }
+        .min320\:mr-10 { margin-right: 2.5rem; }
+        .min320\:mr-12 { margin-right: 3rem; }
+        .min320\:mr-14 { margin-right: 3.5rem; }
+        .min320\:mr-16 { margin-right: 4rem; }
+        .min320\:mr-18 { margin-right: 4.5rem; }
+        .min320\:mr-20 { margin-right: 5rem; }
+
+        .min320\:mt-2 { margin-top: 0.5rem; }
+        .min320\:mt-4 { margin-top: 1rem; }
+        .min320\:mt-6 { margin-top: 1.5rem; }
+        .min320\:mt-8 { margin-top: 2rem; }
+        .min320\:mt-10 { margin-top: 2.5rem; }
+        .min320\:mt-12 { margin-top: 3rem; }
+        .min320\:mt-14 { margin-top: 3.5rem; }
+        .min320\:mt-16 { margin-top: 4rem; }
+        .min320\:mt-18 { margin-top: 4.5rem; }
+        .min320\:mt-20 { margin-top: 5rem; }
+        .min320\:mt-22 { margin-top: 5.5rem; }
+        .min320\:mt-64 { margin-top: 16rem; }
+        
+        .min320\:mb-2 { margin-bottom: 0.5rem; }
+        .min320\:mb-4 { margin-bottom: 1rem; }
+        .min320\:mb-6 { margin-bottom: 1.5rem; }
+        .min320\:mb-8 { margin-bottom: 2rem; }
+        .min320\:mb-10 { margin-bottom: 2.5rem; }
+        .min320\:mb-12 { margin-bottom: 3rem; }
+        .min320\:mb-14 { margin-bottom: 3.5rem; }
+        .min320\:mb-16 { margin-bottom: 4rem; }
+        .min320\:mb-18 { margin-bottom: 4.5rem; }
+        .min320\:mb-20 { margin-bottom: 5rem; }
+
+        .min320\:px-2 { padding-left: 0.5rem; padding-right: 0.5rem; }
+        .min320\:px-4 { padding-left: 1rem; padding-right: 1rem; }
+        .min320\:px-6 { padding-left: 1.5rem; padding-right: 1.5rem; }
+        .min320\:px-8 { padding-left: 2rem; padding-right: 2rem; }
+        .min320\:px-10 { padding-left: 2.5rem; padding-right: 2.5rem; }
+        .min320\:px-12 { padding-left: 3rem; padding-right: 3rem; }
+        .min320\:px-14 { padding-left: 3.5rem; padding-right: 3.5rem; }
+        .min320\:px-16 { padding-left: 4rem; padding-right: 4rem; }
+        .min320\:px-18 { padding-left: 4.5rem; padding-right: 4.5rem; }
+        .min320\:px-20 { padding-left: 5rem; padding-right: 5rem; }
+
+        .min320\:py-2 { padding-top: 0.5rem; padding-bottom: 0.5rem; }
+        .min320\:py-4 { padding-top: 1rem; padding-bottom: 1rem; }
+        .min320\:py-6 { padding-top: 1.5rem; padding-bottom: 1.5rem; }
+        .min320\:py-8 { padding-top: 2rem; padding-bottom: 2rem; }
+        .min320\:py-10 { padding-top: 2.5rem; padding-bottom: 2.5rem; }
+        .min320\:py-12 { padding-top: 3rem; padding-bottom: 3rem; }
+        .min320\:py-14 { padding-top: 3.5rem; padding-bottom: 3.5rem; }
+        .min320\:py-16 { padding-top: 4rem; padding-bottom: 4rem; }
+        .min320\:py-18 { padding-top: 4.5rem; padding-bottom: 4.5rem; }
+        .min320\:py-20 { padding-top: 5rem; padding-bottom: 5rem; }
+    
+        .min320\:w-2 { width: 0.5rem; }
+        .min320\:w-4 { width: 1rem; }
+        .min320\:w-6 { width: 1.5rem; }
+        .min320\:w-8 { width: 2rem; }
+        .min320\:w-10 { width: 2.5rem; }
+        .min320\:w-12 { width: 3rem; }
+        .min320\:w-14 { width: 3.5rem; }
+        .min320\:w-16 { width: 4rem; }
+        .min320\:w-18 { width: 4.5rem; }
+        .min320\:w-20 { width: 5rem; }
+        .min320\:w-32 { width: 11rem; }
+        .min320\:w-40 { width: 15rem; }
+        .min320\:w-50 { width: 20rem; }
+        .min320\:w-60 { width: 25rem; }
+    
+        .min320\:h-2 { height: 0.5rem; }
+        .min320\:h-4 { height: 1rem; }
+        .min320\:h-6 { height: 1.5rem; }
+        .min320\:h-8 { height: 2rem; }
+        .min320\:h-10 { height: 2.5rem; }
+        .min320\:h-12 { height: 3rem; }
+        .min320\:h-14 { height: 3.5rem; }
+        .min320\:h-16 { height: 4rem; }
+        .min320\:h-18 { height: 4.5rem; }
+        .min320\:h-20 { height: 5rem; }
+        .min320\:h-30 { height: 10rem; }
+        .min320\:h-32 { height: 11rem; }
+        .min320\:h-40 { height: 15rem; }
+        .min320\:h-50 { height: 20rem; }
+        .min320\:h-60 { height: 25rem; }
+
+        .min320\:text-xs { font-size: 0.700rem; }
+        .min320\:text-sm { font-size: 0.875rem; }
+        .min320\:text-md { font-size: 1rem; }
+        .min320\:text-lg { font-size: 1.125rem; }
+        .min320\:text-xl { font-size: 1.25rem; }
+        .min320\:text-2xl { font-size: 1.5rem; }
+        .min320\:text-3xl { font-size: 1.875rem; }
+    }
+    
+    @media (min-width: 360px) {
+        .min360\:ml-2 { margin-left: 0.5rem; }
+        .min360\:ml-4 { margin-left: 1rem; }
+        .min360\:ml-6 { margin-left: 1.5rem; }
+        .min360\:ml-8 { margin-left: 2rem; }
+        .min360\:ml-10 { margin-left: 2.5rem; }
+        .min360\:ml-12 { margin-left: 3rem; }
+        .min360\:ml-14 { margin-left: 3.5rem; }
+        .min360\:ml-16 { margin-left: 4rem; }
+        .min360\:ml-18 { margin-left: 4.5rem; }
+        .min360\:ml-20 { margin-left: 5rem; }
+    
+        .min360\:mr-2 { margin-right: 0.5rem; }
+        .min360\:mr-3 { margin-right: 0.75rem; }
+        .min360\:mr-4 { margin-right: 1rem; }
+        .min360\:mr-6 { margin-right: 1.5rem; }
+        .min360\:mr-8 { margin-right: 2rem; }
+        .min360\:mr-10 { margin-right: 2.5rem; }
+        .min360\:mr-12 { margin-right: 3rem; }
+        .min360\:mr-14 { margin-right: 3.5rem; }
+        .min360\:mr-16 { margin-right: 4rem; }
+        .min360\:mr-18 { margin-right: 4.5rem; }
+        .min360\:mr-20 { margin-right: 5rem; }
+
+        .min360\:mt-2 { margin-top: 0.5rem; }
+        .min360\:mt-4 { margin-top: 1rem; }
+        .min360\:mt-6 { margin-top: 1.5rem; }
+        .min360\:mt-8 { margin-top: 2rem; }
+        .min360\:mt-10 { margin-top: 2.5rem; }
+        .min360\:mt-12 { margin-top: 3rem; }
+        .min360\:mt-14 { margin-top: 3.5rem; }
+        .min360\:mt-16 { margin-top: 4rem; }
+        .min360\:mt-18 { margin-top: 4.5rem; }
+        .min360\:mt-20 { margin-top: 5rem; }
+        .min360\:mt-22 { margin-top: 5.5rem; }
+        .min360\:mt-24 { margin-top: 6rem; }
+        .min360\:mt-72 { margin-top: 20rem; }
+        
+        .min360\:mb-2 { margin-bottom: 0.5rem; }
+        .min360\:mb-4 { margin-bottom: 1rem; }
+        .min360\:mb-6 { margin-bottom: 1.5rem; }
+        .min360\:mb-8 { margin-bottom: 2rem; }
+        .min360\:mb-10 { margin-bottom: 2.5rem; }
+        .min360\:mb-12 { margin-bottom: 3rem; }
+        .min360\:mb-14 { margin-bottom: 3.5rem; }
+        .min360\:mb-16 { margin-bottom: 4rem; }
+        .min360\:mb-18 { margin-bottom: 4.5rem; }
+        .min360\:mb-20 { margin-bottom: 5rem; }
+
+        .min360\:px-2 { padding-left: 0.5rem; padding-right: 0.5rem; }
+        .min360\:px-4 { padding-left: 1rem; padding-right: 1rem; }
+        .min360\:px-6 { padding-left: 1.5rem; padding-right: 1.5rem; }
+        .min360\:px-8 { padding-left: 2rem; padding-right: 2rem; }
+        .min360\:px-10 { padding-left: 2.5rem; padding-right: 2.5rem; }
+        .min360\:px-12 { padding-left: 3rem; padding-right: 3rem; }
+        .min360\:px-14 { padding-left: 3.5rem; padding-right: 3.5rem; }
+        .min360\:px-16 { padding-left: 4rem; padding-right: 4rem; }
+        .min360\:px-18 { padding-left: 4.5rem; padding-right: 4.5rem; }
+        .min360\:px-20 { padding-left: 5rem; padding-right: 5rem; }
+
+        .min360\:py-2 { padding-top: 0.5rem; padding-bottom: 0.5rem; }
+        .min360\:py-4 { padding-top: 1rem; padding-bottom: 1rem; }
+        .min360\:py-6 { padding-top: 1.5rem; padding-bottom: 1.5rem; }
+        .min360\:py-8 { padding-top: 2rem; padding-bottom: 2rem; }
+        .min360\:py-10 { padding-top: 2.5rem; padding-bottom: 2.5rem; }
+        .min360\:py-12 { padding-top: 3rem; padding-bottom: 3rem; }
+        .min360\:py-14 { padding-top: 3.5rem; padding-bottom: 3.5rem; }
+        .min360\:py-16 { padding-top: 4rem; padding-bottom: 4rem; }
+        .min360\:py-18 { padding-top: 4.5rem; padding-bottom: 4.5rem; }
+        .min360\:py-20 { padding-top: 5rem; padding-bottom: 5rem; }
+    
+        .min360\:w-2 { width: 0.5rem; }
+        .min360\:w-4 { width: 1rem; }
+        .min360\:w-6 { width: 1.5rem; }
+        .min360\:w-8 { width: 2rem; }
+        .min360\:w-10 { width: 2.5rem; }
+        .min360\:w-12 { width: 3rem; }
+        .min360\:w-14 { width: 3.5rem; }
+        .min360\:w-16 { width: 4rem; }
+        .min360\:w-18 { width: 4.5rem; }
+        .min360\:w-20 { width: 5rem; }
+    
+        .min360\:h-2 { height: 0.5rem; }
+        .min360\:h-4 { height: 1rem; }
+        .min360\:h-6 { height: 1.5rem; }
+        .min360\:h-8 { height: 2rem; }
+        .min360\:h-10 { height: 2.5rem; }
+        .min360\:h-12 { height: 3rem; }
+        .min360\:h-14 { height: 3.5rem; }
+        .min360\:h-16 { height: 4rem; }
+        .min360\:h-18 { height: 4.5rem; }
+        .min360\:h-20 { height: 5rem; }
+        .min360\:h-30 { height: 10rem; }
+        .min360\:h-32 { height: 11rem; }
+
+        .min360\:text-xs { font-size: 0.700rem; }
+        .min360\:text-sm { font-size: 0.875rem; }
+        .min360\:text-md { font-size: 1rem; }
+        .min360\:text-lg { font-size: 1.125rem; }
+        .min360\:text-xl { font-size: 1.25rem; }
+        .min360\:text-2xl { font-size: 1.5rem; }
+        .min360\:text-3xl { font-size: 1.875rem; }
+        .min360\:text-4xl { font-size: 2.25rem; }
+        .min360\:text-5xl { font-size: 3rem; }
+        .min360\:text-6xl { font-size: 3.75rem; }
+    }
+    
+    @media (min-width: 410px) {
+        .min410\:ml-2 { margin-left: 0.5rem; }
+        .min410\:ml-4 { margin-left: 1rem; }
+        .min410\:ml-6 { margin-left: 1.5rem; }
+        .min410\:ml-8 { margin-left: 2rem; }
+        .min410\:ml-10 { margin-left: 2.5rem; }
+        .min410\:ml-12 { margin-left: 3rem; }
+        .min410\:ml-14 { margin-left: 3.5rem; }
+        .min410\:ml-16 { margin-left: 4rem; }
+        .min410\:ml-18 { margin-left: 4.5rem; }
+        .min410\:ml-20 { margin-left: 5rem; }
+    
+        .min410\:mr-2 { margin-right: 0.5rem; }
+        .min410\:mr-4 { margin-right: 1rem; }
+        .min410\:mr-5 { margin-right: 1.25rem; }
+        .min410\:mr-6 { margin-right: 1.5rem; }
+        .min410\:mr-8 { margin-right: 2rem; }
+        .min410\:mr-10 { margin-right: 2.5rem; }
+        .min410\:mr-12 { margin-right: 3rem; }
+        .min410\:mr-14 { margin-right: 3.5rem; }
+        .min410\:mr-16 { margin-right: 4rem; }
+        .min410\:mr-18 { margin-right: 4.5rem; }
+        .min410\:mr-20 { margin-right: 5rem; }
+
+        .min410\:mt-2 { margin-top: 0.5rem; }
+        .min410\:mt-4 { margin-top: 1rem; }
+        .min410\:mt-6 { margin-top: 1.5rem; }
+        .min410\:mt-8 { margin-top: 2rem; }
+        .min410\:mt-10 { margin-top: 2.5rem; }
+        .min410\:mt-12 { margin-top: 3rem; }
+        .min410\:mt-14 { margin-top: 3.5rem; }
+        .min410\:mt-16 { margin-top: 4rem; }
+        .min410\:mt-18 { margin-top: 4.5rem; }
+        .min410\:mt-20 { margin-top: 5rem; }
+        .min410\:mt-22 { margin-top: 5.5rem; }
+        .min410\:mt-23 { margin-top: 5.75rem; }
+        .min410\:mt-24 { margin-top: 6rem; }
+        
+        .min410\:mb-2 { margin-bottom: 0.5rem; }
+        .min410\:mb-4 { margin-bottom: 1rem; }
+        .min410\:mb-6 { margin-bottom: 1.5rem; }
+        .min410\:mb-8 { margin-bottom: 2rem; }
+        .min410\:mb-10 { margin-bottom: 2.5rem; }
+        .min410\:mb-12 { margin-bottom: 3rem; }
+        .min410\:mb-14 { margin-bottom: 3.5rem; }
+        .min410\:mb-16 { margin-bottom: 4rem; }
+        .min410\:mb-18 { margin-bottom: 4.5rem; }
+        .min410\:mb-20 { margin-bottom: 5rem; }
+
+        .min410\:px-2 { padding-left: 0.5rem; padding-right: 0.5rem; }
+        .min410\:px-4 { padding-left: 1rem; padding-right: 1rem; }
+        .min410\:px-6 { padding-left: 1.5rem; padding-right: 1.5rem; }
+        .min410\:px-8 { padding-left: 2rem; padding-right: 2rem; }
+        .min410\:px-10 { padding-left: 2.5rem; padding-right: 2.5rem; }
+        .min410\:px-12 { padding-left: 3rem; padding-right: 3rem; }
+        .min410\:px-14 { padding-left: 3.5rem; padding-right: 3.5rem; }
+        .min410\:px-16 { padding-left: 4rem; padding-right: 4rem; }
+        .min410\:px-18 { padding-left: 4.5rem; padding-right: 4.5rem; }
+        .min410\:px-20 { padding-left: 5rem; padding-right: 5rem; }
+
+        .min410\:py-2 { padding-top: 0.5rem; padding-bottom: 0.5rem; }
+        .min410\:py-4 { padding-top: 1rem; padding-bottom: 1rem; }
+        .min410\:py-6 { padding-top: 1.5rem; padding-bottom: 1.5rem; }
+        .min410\:py-8 { padding-top: 2rem; padding-bottom: 2rem; }
+        .min410\:py-10 { padding-top: 2.5rem; padding-bottom: 2.5rem; }
+        .min410\:py-12 { padding-top: 3rem; padding-bottom: 3rem; }
+        .min410\:py-14 { padding-top: 3.5rem; padding-bottom: 3.5rem; }
+        .min410\:py-16 { padding-top: 4rem; padding-bottom: 4rem; }
+        .min410\:py-18 { padding-top: 4.5rem; padding-bottom: 4.5rem; }
+        .min410\:py-20 { padding-top: 5rem; padding-bottom: 5rem; }
+    
+        .min410\:w-2 { width: 0.5rem; }
+        .min410\:w-4 { width: 1rem; }
+        .min410\:w-6 { width: 1.5rem; }
+        .min410\:w-7 { width: 1.75rem; }
+        .min410\:w-8 { width: 2rem; }
+        .min410\:w-10 { width: 2.5rem; }
+        .min410\:w-12 { width: 3rem; }
+        .min410\:w-14 { width: 3.5rem; }
+        .min410\:w-16 { width: 4rem; }
+        .min410\:w-18 { width: 4.5rem; }
+        .min410\:w-20 { width: 5rem; }
+    
+        .min410\:h-2 { height: 0.5rem; }
+        .min410\:h-4 { height: 1rem; }
+        .min410\:h-6 { height: 1.5rem; }
+        .min410\:h-8 { height: 2rem; }
+        .min410\:h-10 { height: 2.5rem; }
+        .min410\:h-12 { height: 3rem; }
+        .min410\:h-14 { height: 3.5rem; }
+        .min410\:h-16 { height: 4rem; }
+        .min410\:h-18 { height: 4.5rem; }
+        .min410\:h-20 { height: 5rem; }
+        .min410\:h-30 { height: 10rem; }
+        .min410\:h-32 { height: 11rem; }
+
+        .min410\:text-xs { font-size: 0.700rem; }
+        .min410\:text-sm { font-size: 0.875rem; }
+        .min410\:text-md { font-size: 1rem; }
+        .min410\:text-lg { font-size: 1.125rem; }
+        .min410\:text-xl { font-size: 1.25rem; }
+        .min410\:text-2xl { font-size: 1.5rem; }
+        .min410\:text-3xl { font-size: 1.875rem; }
+    }
+}  
+
+
+body {
+    background: url("Images/Background/1.jpeg") no-repeat center center fixed;
+    background-size: cover;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.slide-in {
+    transform: translateX(0%);
+    transition: transform 0.3s ease-in-out;
+}
+
+.slide-out {
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+}
+
+.list-alpha {
+    list-style-type: lower-alpha;
+}
